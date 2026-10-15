@@ -21,3 +21,16 @@ coverage/
 id_rsa
 id_ed25519
 id_ecdsa
+
+# NFL Explorer build output and tooling
+dist/
+dist-electron/
+dist-ssr/
+*.local
+logs/
+*.log
+.vite/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
