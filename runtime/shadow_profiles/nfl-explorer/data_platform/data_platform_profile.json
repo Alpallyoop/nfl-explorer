@@ -1,0 +1,18 @@
+{
+    "schema":  "contract_registry.data_platform_profile.v1",
+    "generated_utc":  "2026-10-13T05:37:14.9887162Z",
+    "repo_name":  "nfl-explorer",
+    "target_repo":  "C:\\dev\\nfl-explorer",
+    "files_scanned":  29,
+    "scan_truncated":  false,
+    "platform_signals":  [
+
+                         ],
+    "category_summary":  [
+
+                         ],
+    "detection_count":  0,
+    "detections":  [
+
+                   ]
+}

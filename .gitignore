@@ -1,0 +1,23 @@
+# Build output and dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+target/
+.next/
+coverage/
+.scratch/
+.work/
+
+# Secrets never go to GitHub
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+id_rsa
+id_ed25519
+id_ecdsa
