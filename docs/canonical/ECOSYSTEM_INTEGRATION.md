@@ -6,7 +6,7 @@
 |---|---|
 | Service ID | `nfl-explorer` |
 | Canonical name | NFL Explorer |
-| Ecosystem family | `fides` |
+| Ecosystem family | `covenant` |
 | Ecosystem layer | `application.ledger-explorer` |
 | Standalone-first | `true` |
 
