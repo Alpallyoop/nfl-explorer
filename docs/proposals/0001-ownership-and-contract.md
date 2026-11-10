@@ -1,6 +1,6 @@
 # Proposal 0001 - NFL Explorer ownership, boundaries and contract
 
-Status: proposed 2026-10-15. For Constellation (`registry/services.json`, service `nfl-explorer`), whose record
+Status: Decided 2026-11-04: reads are receipt-exempt, writes carry receipts (Constellation proposal 0047)
 has `owns: []` and `does_not_own: []` ("UNCLASSIFIED").
 
 ## Proposed registry values
@@ -39,3 +39,9 @@ and offers them to NFL. Until decided, nothing is emitted and the record should 
 The old renderer called `window.NFL.getState(url)` (which returned state, not a response) and the main process
 wrote straight into `C:\dev\nfl\data\ledger.ndjson`, bypassing NFL's lock and chain, and faked ingest runs
 (`INGEST_OK` with zero counts). That code is removed; there is no other consumer of it.
+
+## Owner decision (2026-11-04)
+
+nfl-explorer > nfl (`nfl.api.v1`, strong) is registered. Operator-console reads are receipt-exempt; the explorer writes receipts for its writes (commit, receipt/witness, ingest/control).
+
+Recorded in Constellation proposal 0047 (owner decisions 2026-11-04).
